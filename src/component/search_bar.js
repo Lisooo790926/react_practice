@@ -14,7 +14,7 @@ class SearchBar extends Component {
         super(props);
         // we want to change the state after inputting box
         // term can be any word
-        this.state = {term:'Init value'}
+        this.state = {term:''}
     }
 
     // if logic requirement we need to use class
@@ -26,7 +26,7 @@ class SearchBar extends Component {
         return <div>
          <input
             value = {this.state.term} 
-            onChange={(event) => this.setState({term: event.target.value})}/>
+            onChange={(event) => this.onSearch(event.target.value)}/>
         </div>
     }
 
@@ -36,6 +36,11 @@ class SearchBar extends Component {
     // onInputChange(event) {
     //     console.log(event.target.value);
     // }
+
+    onSearch(term) {
+        this.setState({term: term})
+        this.props.onSearch(term);
+    }
 
 }
 

@@ -1,25 +1,8 @@
+# Practice 
+Build the youtube search bar for praticing
+Only focus on understand the how react works and just for practice and record.
+
 # ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+This practice is based on [ReduxSimpleStarter](https://github.com/StephenGrider/ReduxSimpleStarter.git)\
+And follow the class [Ethereum and Solidity](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/)\
+Please check links, if you are interesting in above classes, 
